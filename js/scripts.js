@@ -25,3 +25,7 @@ var cupsToLiter = function(cups) {
 var cups = parseFloat(prompt("Enter # of cups"));
 var result = cupsToLiter(cups);
 alert(result);
+
+var inpurfromuser = prompt("Enter either gallons, quarts, pints, cups");
+
+// inpurfromuser + "ToLiter" = xToLiter(x)
